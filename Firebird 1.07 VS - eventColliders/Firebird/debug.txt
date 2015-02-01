@@ -1,0 +1,4 @@
+		cAvatarEntity::Update-> JUMPING NOW
+POSITION: -39.2952 -1.41022 20.9215
+		cAvatarEntity::Update-> JUMPING NOW
+POSITION: -37.3668 -8.99797 4.89754

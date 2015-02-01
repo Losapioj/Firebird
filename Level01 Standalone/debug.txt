@@ -1,0 +1,4 @@
+cGraphics::SaveSurface Begin
+cGraphics::SaveSurface End
+cGraphics::SaveSurface Begin
+cGraphics::SaveSurface End

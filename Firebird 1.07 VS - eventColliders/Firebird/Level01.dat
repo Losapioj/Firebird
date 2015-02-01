@@ -1,0 +1,338 @@
+Level01
+
+[BeginModelList]
+static .\\Models\\Terrain01_final.x
+static .\\Models\\Water.x
+static .\\Models\\Bushes.x
+
+static .\\Models\\Gate.x
+static .\\Models\\Fence.x
+
+static .\\Models\\Cabin01.x
+static .\\Models\\Cabin01_Vines.x
+static .\\Models\\Cabin01_Barrel.x
+static .\\Models\\Cabin01_Books.x
+static .\\Models\\Cabin01_Table.x
+static .\\Models\\Tanner.x
+
+static .\\Models\\NewTree.x
+static .\\Models\\Tree01_noNORMS.x
+static .\\Models\\Tree02_noNORMS.x
+static .\\Models\\Tree03_noNORMS.x
+static .\\Models\\Tree04_noNORMS.x
+
+static .\\Models\\Tree_Stump.x
+
+static .\\Models\\Bridge.x
+static .\\Models\\Terrain_Cave.x
+
+
+static .\\Models\\Rock01.x
+static .\\Models\\Rock02.x
+static .\\Models\\Rock03.x
+[EndModelList]
+
+[BeginEntityList]
+Terrain Terrain01
+.\\Models\\Terrain01_final.x
+0 0 0
+0 0 0
+10 10 10
+5
+Heightmap TerrainHM.dat
+AABox	-10.0 0.0 -10.0
+		-8.0 8.0 10.0
+AABox	-10.0 0.0 -10.0
+		10.0 8.0 -8.0
+AABox	8.0 0.0 -10.0
+		10.0 8.0 10.0
+AABox	-10.0 0.0 8.0
+		10.0 8.0 10.0
+Terrain Terrain01_water
+.\\Models\\Water.x
+0 0 0
+0 0 0
+10 10 10
+0
+Terrain Terrain01_bushes
+.\\Models\\Bushes.x
+0 0 0
+0 0 0
+10 10 10
+0
+
+Terrain Terrain01_gate
+.\\Models\\Gate.x
+0 0 0
+0 0 0
+10 10 10
+0
+Terrain Terrain01_fence
+.\\Models\\Fence.x
+-30 12.9 55
+0 -40 5
+4 5 3
+0
+
+
+Terrain Tree01_01NN
+.\\Models\\Tree01_noNORMS.x
+31.5 0 -53.1377
+0 0 0
+0.2 0.3 0.2
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+Terrain Tree01_02NN
+.\\Models\\Tree01_noNORMS.x
+-52.9337 0 -11.2665
+0 0 0
+0.15 0.2 0.14
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+Terrain Tree01_03NN
+.\\Models\\Tree01_noNORMS.x
+-38.7709 0 28.8041
+0 0 0
+0.2 0.3 0.2
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+Terrain Tree01_04NN
+.\\Models\\Tree01_noNORMS.x
+3.70515 0 52.9243
+0 0 0
+0.3 0.35 0.3
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+Terrain Tree02_01NN
+.\\Models\\Tree02_noNORMS.x
+58.8939 0 -25.5272
+0 0 0
+0.4 0.5 0.4
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+Terrain Tree02_02NN
+.\\Models\\Tree02_noNORMS.x
+28.7613 0 25.0078
+0 0 0
+0.15 0.2 0.17
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+Terrain Tree02_03NN
+.\\Models\\Tree02_noNORMS.x
+-1.73682 0 -18.0082
+0 -7.5 4
+0.21 0.23 0.23
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+Terrain Tree03_01NN
+.\\Models\\Tree03_noNORMS.x
+51.254 0 49.5806
+0 0 0
+0.35 0.4 0.35
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+Terrain Tree04_01NN
+.\\Models\\Tree04_noNORMS.x
+-45.0203 0 -45.6419
+0 0 0
+0.2 0.2 0.2
+1
+Cylinder 8.0 90.0 0.0
+		 0.0 0.0 0.0
+
+
+
+Terrain Tree_Stump_01
+.\\Models\\Tree_Stump.x
+27.9769 0.25 -37.9318
+0 0 0
+2 2 2
+0
+Terrain Tree_Stump_02
+.\\Models\\Tree_Stump.x
+-16.9025 0.75 -37.6118
+0 0 0
+1 1.3 .8
+0
+Terrain Tree_Stump_03
+.\\Models\\Tree_Stump.x
+-28.8063 0.2 -53.2282
+0 0 0
+1.5 2 1.5
+0
+Terrain Tree_Stump_04
+.\\Models\\Tree_Stump.x
+-29.3901 1 -33.8533
+0 0 0
+2 1 2
+0	
+		
+
+
+Terrain Cabin01_01
+.\\Models\\Cabin01.x
+1.1 .3 -56.7
+0 90 0
+1.8 1.8 1.8
+5
+AABox	-7.6 0.0 -0.5
+		-7.4 6.0 9.0
+AABox	1.45 0.0 -0.5
+		1.65 6.0 9.0
+AABox	-7.6 0.0 -0.5
+		1.65 6.0 0.0
+AABox	-7.6 0.0 8.5
+		-4.2 6.0 9.0
+AABox	-1.7 0.0 8.5
+		1.65 6.0 9.0
+Terrain Cabin01_Vines
+.\\Models\\Cabin01_Vines.x
+1.1 0 -56.7
+0 90 0
+1.8 1.8 1.8
+0
+Terrain Cabin01_Barrel
+.\\Models\\Cabin01_Barrel.x
+1.1 0 -49.2618
+0 -90 0
+0.75 0.75 0.75
+0
+Terrain Cabin01_Books
+.\\Models\\Cabin01_Books.x
+1.1 0 -49.2618
+0 -90 0
+0.75 0.75 0.75
+0
+Terrain Cabin01_Table
+.\\Models\\Cabin01_Table.x
+1.1 0 -49.2618
+0 -90 0
+0.75 0.75 0.75
+1
+AABox	-0.6 0.0 -2.25
+		0.6 2.0 2.25
+Terrain Cabin01_Tanner
+.\\Models\\Tanner.x
+-20.6604 0.926696 -33
+0 70 0
+0.2 0.2 0.2
+0
+
+
+
+Terrain Bridge01
+.\\Models\\Bridge.x
+25.5228 0.25 -15.24609
+0 115.737 0
+1.3 1.3 1.3
+22
+AABox	-5.5 -5.0 1.0125
+		-5.0 0.0 4.5
+
+AABox	-5.0 -5.0 0.75
+		-4.5 0.0 4.2375
+AABox	-4.5 -5.0 0.4875
+		-4.0 0.0 3.975
+AABox	-4.0 -5.0 0.225
+		-3.5 0.0 3.7125
+AABox	-3.5 -5.0 -0.0375
+		-3.0 0.0 3.45
+AABox	-3.0 -5.0 -0.3
+		-2.5 0.0 3.1875
+
+AABox	-2.5 -5.0 -0.5625
+		-2.0 0.0 2.925
+AABox	-2.0 -5.0 -0.825
+		-1.5 0.0 2.6625
+AABox	-1.5 -5.0 -1.0875
+		-1.0 0.0 2.4
+AABox	-1.0 -5.0 -1.35
+		-0.5 0.0 2.1375
+AABox	-0.5 -5.0 -1.6125
+		0.0 0.0 1.875
+
+AABox	0.0 -5.0 -1.875
+		0.5 0.0 1.6125
+AABox	0.5 -5.0 -2.1375
+		1.0 0.0 1.35
+AABox	1.0 -5.0 -2.4
+		1.5 0.0 1.0875
+AABox	1.5 -5.0 -2.6625
+		2.0 0.0 0.825
+AABox	2.0 -5.0 -2.925
+		2.5 0.0 0.5625
+
+AABox	2.5 -5.0 -3.1875
+		3.0 0.0 0.3
+AABox	3.0 -5.0 -3.45
+		3.5 0.0 0.0375
+AABox	3.5 -5.0 -3.7125
+		4.0 0.0 -0.225
+AABox	4.0 -5.0 -3.975
+		4.5 0.0 -0.4875
+AABox	4.5 -5.0 -4.2375
+		5.0 0.0 -0.75
+
+
+AABox	5.0 -5.0 -4.5
+		5.5 0.0 -1.0125
+
+Terrain Terrain_Cave
+.\\Models\\Terrain_Cave.x
+0 0 0
+0 0 0
+10 10 10
+0
+
+Terrain Rock01_01
+.\\Models\\Rock01.x
+11 0 20.5772
+0 0 0
+1 1 1
+0
+Terrain Rock01_02
+.\\Models\\Rock01.x
+-48.837 2 39.4661
+0 0 0
+2.5 2.5 2.5
+0
+Terrain Rock02_01
+.\\Models\\Rock02.x
+72 0 29
+0 143.23945 0
+1 1 1
+0
+Terrain Rock03_01
+.\\Models\\Rock03.x
+43.7809 0 -10.1014
+0 0 0
+1 1 1
+0
+Terrain Rock03_02
+.\\Models\\Rock03.x
+-37.3274 0 -42.3558
+0 0 0
+1 1 1
+0
+
+Avatar Avatar01
+NoModel
+50.0 0.0 -35.0
+0 -25 0
+1 1 1
+1
+Cylinder 2.0 6.0 0.0
+		 0.0 0.0 0.0
+[EndEntityList]
+
+[BeginWorldPhysics]
+20 -60 10 1
+[EndWorldPhysics]

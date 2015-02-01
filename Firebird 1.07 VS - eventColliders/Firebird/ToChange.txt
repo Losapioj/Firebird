@@ -1,0 +1,22 @@
+2/20
+	+ add heightmap to terrain
+	+ import new model
+- add TERRAIN_GET_HEIGHT_REQUEST event
+		-> + to cfg
+		-> + to terrain as listener
+		-> + to avatar as sender (to get height)
+	- DEBUG ME!
+- add PHYSICS_FALL event
+	-> - to cfg
+	-> - to physics as listener
+	-> - to avatar as sender (to fall)
+	
+- hook for HM scale, pos, rot into terrain's
+- change level from tile to HM based
+- walk on HM
+- constrain HM walking if too steep
+
+
+- PARTICLE EFFECTS
+
+- TEXTURE ANIMATION FOR RIVER
